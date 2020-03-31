@@ -13,6 +13,7 @@ body {
 nav {
     top: 0;
     padding: 15px;
+    font-size: 12px;
 }
 
 nav ul li {
@@ -73,7 +74,7 @@ nav button:hover {
 }
 
 input {
-    width: 85%;
+    width: 82%;
     height: 40px;
     background: transparent;
     color: rgba(0,0,0,.87);
@@ -99,10 +100,10 @@ form {
     border: 1px solid #f2f2f2;
     border-radius: 20px;
     padding: 0 5px;
-    width: 30%;
+    width: 25%;
     text-align: center;
     display: inline-block;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 form #form-button {
@@ -117,6 +118,10 @@ form #form-button:hover {
     cursor: pointer;
 }
 
+form i {
+    padding: 2px;
+}
+
 
 
 /* footer */
@@ -127,6 +132,7 @@ footer {
     width: 98%;
     padding: 15px;
     background: #f2f2f2;
+    font-size: 12px;
 }
 
 footer ul li {
