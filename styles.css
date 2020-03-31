@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+nav {
+    top: 0;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav i {
+    height: 30px;
+    width: 30px;
+    transition: 0.5s;
+    color: gray;
+}
+
+nav i:hover {
+    color: #222;
+}
+
+nav button {
+    padding: 5px 12px;
+    background:#4285f4;
+    color: #fff;
+    font-weight: bold;
+    border: none;   
+}
+
+nav button:hover {
+    border: 1px solid #4285f4;
+}
+
+#left-nav {
+    float: left;
+}
+
+#right-nav {
+    float: right;
+}
+
+/* Main Logo & Search Bar */
+
+#main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+input {
+    margin: 10px 20px 30px;
+    width: 30%;
+    border-radius: 20px;
+    height: 40px;
+    background: transparent;
+    color: rgba(0,0,0,.87);
+    box-shadow: none;
+    border: 1px solid #f2f2f2;
+}
+
+#main button {
+    margin: 0 10px;
+    padding: 5px 20px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    transition: 0.5s;
+}
+
+#main button:hover {
+    border: 1px solid #000;
+}
+
+/* footer */
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 98%;
+    padding: 15px;
+    background: #f2f2f2;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer ul li a {
+    color: #222;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+   text-decoration: underline; 
+}
+
+#left-footer {
+    float: left;
+}
+
+#right-footer {
+    float: right;
+}
+
+
+
